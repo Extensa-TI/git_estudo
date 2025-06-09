@@ -1,4 +1,4 @@
-username miro-xavier
+gusername miro-xavier
 password Cruzeiro_0546
 email miroxavierfilho@gmail.com
 
@@ -22,6 +22,7 @@ git checkout main					Volta para o branch main
 git revert numero-do-id-do-branch			Desfaz esse branch (para sair da tela que aparece, digite :q)
 git reset numero-do-id-do-branch		        Apaga esse branch, mas mantém as alterações futuras nos arquivos
 git reset numero-do-id-do-branck --hard                 Apaga esse branch e também as alterações nos arquivo
+git branch -M main					Seleciona o branch main
 git branch						Lista os branchs
 git branch teste					Cria um branch teste
 git checkout teste					Vai para o branch teste
