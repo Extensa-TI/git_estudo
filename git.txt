@@ -1,0 +1,48 @@
+username miro-xavier
+password Cruzeiro_0546
+email miroxavierfilho@gmail.com
+
+git init --bare						cria o repositorio
+git version						mostra a versao
+git config --global --list				listar usuario 		
+git config --global user.name "Nome Sobrenome"		cadastrar o username	Aldemir Xavier
+git config --global user.email nome@provedor.com	cadastrar email		axcfilho@hotmail.com
+git init						cria um repositório 
+git status						ver os arquivos no git
+git add	nome-arquivo				        adicona o aquivo no stage
+gud add .						adiciona todos os arquivos no stage
+git rm --cached nome-arquivo				tirar o arquovo do stage
+git commit -m "mensagem descritiva do commit"		Commite dos arquivos	
+git commit  						Não precisa passar a mensagem se estiver resolvido conflito	
+git log							Histórico dos arquivos comitados
+git log --oneline					Versão reduzida do histórico
+git add . && git commit -m "mensagem"		        Com o && pode-se colocar comandos na mesma linha
+git checkout numero-do-id-do-branch			Volta para o branch do id digitado
+git checkout main					Volta para o branch main
+git revert numero-do-id-do-branch			Desfaz esse branch (para sair da tela que aparece, digite :q)
+git reset numero-do-id-do-branch		        Apaga esse branch, mas mantém as alterações futuras nos arquivos
+git reset numero-do-id-do-branck --hard                 Apaga esse branch e também as alterações nos arquivo
+git branch						Lista os branchs
+git branch teste					Cria um branch teste
+git checkout teste					Vai para o branch teste
+git branch -d teste					Deleta o branch teste se não tiver commite
+git branch -D teste					Deleta definitivamente o branch teste
+git merge nome-do-branch				Fundir o branch especificado
+
+ls							lista arquivos na pasta que estiver
+ls -a							exibe arquivos ocultos
+clear							limpar terminal
+touch aula-de-git.txt					criar o arquivo
+nano aula-de-git.txt					abre o arquivo no terminal
+cat aula-de-git.txt					exibe na tela o conteúdo do arquivo
+rm aula-de-git.txt					remover arquivo
+rmdir nome-do-diretorio					remover diretório
+mkdir nome-do-diretorio					criar diretório
+mv nome1 nome2						mudar o nome do diretório
+cd ..							volta uma pasta no diretório
+cd curso						vai para o diretório na sequeência
+cd ../nome-da-pasta					volta e vai para outra pasta
+Alt + q							digita / no prompt
+Ctrl + Alt + q						digita / no word/notepad
+.gitignore						serve para colocar arquivos que o git não precisa rastrear
+vi .gitignore						cria o arquivo .gitignore

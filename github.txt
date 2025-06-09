@@ -1,0 +1,30 @@
+username miro-xavier
+password Cruzeiro_0546
+email miroxavierfilho@gmail.com
+
+criar ssh->icone da conta->Settings->SSH and GPG Keys
+associar o projeto com o git hub-> git remote add origin  https://github.com/miro-xavier/curso-git.git
+
+push-> para subir
+pull-> para baixar
+
+push-> git push https://github.com/miro-xavier/sge.git main
+push-> git push origin master
+pull-> git pull origin master
+pull-> git push -u origin master
+
+Criar repositorio 
+echo "# Java_Estudos" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Extensa-TI/Java_Estudos.git
+git push -u origin main
+
+Se o repositorio já existir
+git remote add origin https://github.com/Extensa-TI/Java_Estudos.git
+git branch -M main
+git push -u origin main
+
+
